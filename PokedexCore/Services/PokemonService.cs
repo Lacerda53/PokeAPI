@@ -35,7 +35,7 @@ namespace PokedexCore.Services
                    new Evolucao { Id=2, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/002.png", Name="Ivysaur"},
                    new Evolucao { Id=3, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/003.png", Name="Venusaur"},
                }
-            },
+            },//1
             new Pokemon
             {
                Id = 2,
@@ -61,7 +61,7 @@ namespace PokedexCore.Services
                    new Evolucao { Id=2, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/002.png", Name="Ivysaur"},
                    new Evolucao { Id=3, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/003.png", Name="Venusaur"},
                }
-            },
+            },//2
             new Pokemon
             {
                Id = 3,
@@ -87,7 +87,7 @@ namespace PokedexCore.Services
                    new Evolucao { Id=2, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/002.png", Name="Ivysaur"},
                    new Evolucao { Id=3, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/003.png", Name="Venusaur"},
                }
-            },
+            },//3
             new Pokemon
             {
                Id = 4,
@@ -112,7 +112,7 @@ namespace PokedexCore.Services
                    new Evolucao { Id=5, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/005.png", Name="Charmeleon"},
                    new Evolucao { Id=6, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/006.png", Name="Charizard"},
                }
-            },
+            },//4
             new Pokemon
             {
                Id = 5,
@@ -137,7 +137,7 @@ namespace PokedexCore.Services
                    new Evolucao { Id=5, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/005.png", Name="Charmeleon"},
                    new Evolucao { Id=6, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/006.png", Name="Charizard"},
                }
-            },
+            },//5
             new Pokemon
             {
                Id = 6,
@@ -163,7 +163,7 @@ namespace PokedexCore.Services
                    new Evolucao { Id=5, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/005.png", Name="Charmeleon"},
                    new Evolucao { Id=6, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/006.png", Name="Charizard"},
                }
-            },
+            },//6
             new Pokemon
             {
                Id = 7,
@@ -187,7 +187,7 @@ namespace PokedexCore.Services
                    new Evolucao { Id=8, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/008.png", Name="Wartortle"},
                    new Evolucao { Id=9, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/009.png", Name="Blastoise"},
                }
-            },
+            },//7
             new Pokemon
             {
                Id = 8,
@@ -211,7 +211,7 @@ namespace PokedexCore.Services
                    new Evolucao { Id=8, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/008.png", Name="Wartortle"},
                    new Evolucao { Id=9, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/009.png", Name="Blastoise"},
                }
-            },
+            },//8
             new Pokemon
             {
                Id = 9,
@@ -234,14 +234,14 @@ namespace PokedexCore.Services
                    new Evolucao { Id=8, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/008.png", Name="Wartortle"},
                    new Evolucao { Id=9, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/009.png", Name="Blastoise"},
                }
-            },
+            },//9
             new Pokemon
             {
                Id = 10,
                Nome= "Caterpie",
                Imagem= "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/010.png",
                Sobre= "Caterpie tem um apetite voraz. Ele pode devorar folhas maiores que seu corpo diante dos seus olhos. De sua antena, este Pokémon libera um odor terrivelmente forte.",
-               CorFundo= "#C5D048",
+               CorFundo= "#74A465",
                 TipoPoke = new List<Tipo>()
                 {
                    new Tipo { TipoPoke="Inseto"}
@@ -258,14 +258,14 @@ namespace PokedexCore.Services
                    new Evolucao { Id=11, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/011.png", Name="Metapod"},
                    new Evolucao { Id=12, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/012.png", Name="Butterfree"},
                }
-            },
+            },//10
             new Pokemon
             {
                Id = 11,
                Nome= "Metapod",
                Imagem= "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/011.png",
                Sobre= "A concha que cobre o corpo deste Pokémon é tão dura quanto uma laje de ferro. Metapod não se move muito. Ele fica parado porque está preparando suas entranhas suaves para a evolução dentro da casca dura.",
-               CorFundo= "#C5D048",
+               CorFundo= "#74A465",
                 TipoPoke = new List<Tipo>()
                 {
                    new Tipo { TipoPoke="Inseto"}
@@ -282,14 +282,14 @@ namespace PokedexCore.Services
                    new Evolucao { Id=11, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/011.png", Name="Metapod"},
                    new Evolucao { Id=12, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/012.png", Name="Butterfree"},
                }
-            },
+            },//11
             new Pokemon
             {
                Id = 12,
                Nome= "Butterfree",
                Imagem= "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/012.png",
                Sobre= "Butterfree tem uma capacidade superior para procurar mel delicioso de flores. Pode até procurar, extrair e transportar mel de flores que estão desabrochando a mais de 10 quilômetros do ninho.",
-               CorFundo= "#C5D048",
+               CorFundo= "#74A465",
                 TipoPoke = new List<Tipo>()
                 {
                    new Tipo { TipoPoke="Inseto"},
@@ -309,14 +309,14 @@ namespace PokedexCore.Services
                    new Evolucao { Id=11, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/011.png", Name="Metapod"},
                    new Evolucao { Id=12, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/012.png", Name="Butterfree"},
                }
-            },
+            },//12
             new Pokemon
             {
                Id = 13,
                Nome= "Weedle",
                Imagem= "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/013.png",
                Sobre= "Weedle tem um olfato extremamente agudo. Ele é capaz de distinguir seus tipos favoritos de folhas daqueles de que não gosta, apenas farejando com sua grande tromba vermelha (nariz).",
-               CorFundo= "",
+               CorFundo= "#74A465",
                 TipoPoke = new List<Tipo>()
                 {
                    new Tipo { TipoPoke="Planta"},
@@ -335,14 +335,14 @@ namespace PokedexCore.Services
                    new Evolucao { Id=14, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/014.png", Name="Kakuna"},
                    new Evolucao { Id=15, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/015.png", Name="Beedril"},
                }
-            },
+            },//13
             new Pokemon
             {
                Id = 14,
                Nome= "Kakuna",
                Imagem= "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/014.png",
                Sobre= "Kakuna permanece praticamente imóvel enquanto se agarra a uma árvore. No entanto, por dentro, é extremamente ocupado, enquanto se prepara para a sua evolução futura. Isso é evidente pelo quão quente a concha fica ao toque.",
-               CorFundo= "",
+               CorFundo= "#74A465",
                 TipoPoke = new List<Tipo>()
                 {
                    new Tipo { TipoPoke="Planta"},
@@ -361,14 +361,14 @@ namespace PokedexCore.Services
                    new Evolucao { Id=14, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/014.png", Name="Kakuna"},
                    new Evolucao { Id=15, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/015.png", Name="Beedril"},
                }
-            },
+            },//14
             new Pokemon
             {
                Id = 15,
                Nome= "Beedrill",
                Imagem= "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/015.png",
                Sobre= "Beedrill é extremamente territorial. Ninguém deve se aproximar de seu ninho - isso é para sua própria segurança. Se irritados, eles atacarão em um enxame furioso.",
-               CorFundo= "",
+               CorFundo= "#74A465",
                 TipoPoke = new List<Tipo>()
                 {
                    new Tipo { TipoPoke="Planta"},
@@ -387,14 +387,14 @@ namespace PokedexCore.Services
                    new Evolucao { Id=14, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/014.png", Name="Kakuna"},
                    new Evolucao { Id=15, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/015.png", Name="Beedril"},
                }
-            },
+            },//15
             new Pokemon
             {
                Id = 16,
                Nome= "Pidgey",
                Imagem= "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/016.png",
                Sobre= "Pidgey tem um senso de direção extremamente nítido. Ela é capaz de voltar para o seu ninho de forma infalível, por mais longe que possa ser removida de seu ambiente familiar.",
-               CorFundo= "",
+               CorFundo= "#BDBBA5",
                 TipoPoke = new List<Tipo>()
                 {
                    new Tipo { TipoPoke="Normal"},
@@ -412,14 +412,14 @@ namespace PokedexCore.Services
                    new Evolucao { Id=17, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/017.png", Name="Pidgeotto"},
                    new Evolucao { Id=18, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/018.png", Name="Pidgeot"},
                }
-            },
+            },//16
             new Pokemon
             {
                Id = 17,
                Nome= "Pidgeotto",
                Imagem= "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/017.png",
                Sobre= "Pidgeotto reivindica uma grande área como seu próprio território. Este Pokémon voa, patrulhando seu espaço de vida. Se seu território é violado, não mostra piedade de punir completamente o inimigo com suas garras afiadas.",
-               CorFundo= "",
+               CorFundo= "#BDBBA5",
                 TipoPoke = new List<Tipo>()
                 {
                    new Tipo { TipoPoke="Normal"},
@@ -437,14 +437,14 @@ namespace PokedexCore.Services
                    new Evolucao { Id=17, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/017.png", Name="Pidgeotto"},
                    new Evolucao { Id=18, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/018.png", Name="Pidgeot"},
                }
-            },
+            },//17
             new Pokemon
             {
                Id = 18,
                Nome= "Pidgeot",
                Imagem= "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/018.png",
                Sobre= "Este Pokémon tem uma plumagem deslumbrante de penas maravilhosamente brilhantes. Muitos treinadores são cativados pela impressionante beleza das penas em sua cabeça, obrigando-os a escolher Pidgeot como seu Pokémon.",
-               CorFundo= "",
+               CorFundo= "#BDBBA5",
                 TipoPoke = new List<Tipo>()
                 {
                    new Tipo { TipoPoke="Normal"},
@@ -462,14 +462,14 @@ namespace PokedexCore.Services
                    new Evolucao { Id=17, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/017.png", Name="Pidgeotto"},
                    new Evolucao { Id=18, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/018.png", Name="Pidgeot"},
                }
-            },
+            },//18
             new Pokemon
             {
                Id = 19,
                Nome= "Rattata",
                Imagem= "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/019.png",
                Sobre= "Rattata é cauteloso ao extremo. Mesmo dormindo, ouve constantemente movendo os ouvidos. Não é exigente sobre onde vive - fará seu ninho em qualquer lugar.",
-               CorFundo= "",
+               CorFundo= "#BDBBA5",
                 TipoPoke = new List<Tipo>()
                 {
                    new Tipo { TipoPoke="Normal"},
@@ -483,14 +483,14 @@ namespace PokedexCore.Services
                    new Evolucao { Id=19, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/019.png", Name="Rattata"},
                    new Evolucao { Id=20, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/020.png", Name="Raticate"},
                }
-            },
+            },//19
             new Pokemon
             {
                Id = 20,
                Nome= "Raticate",
                Imagem= "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/020.png",
                Sobre= "As presas fortes de Raticate crescem constantemente. Para mantê-los triturados, roem pedras e troncos. Pode até mastigar as paredes das casas.",
-               CorFundo= "",
+               CorFundo= "#BDBBA5",
                 TipoPoke = new List<Tipo>()
                 {
                    new Tipo { TipoPoke="Normal"},
@@ -504,14 +504,14 @@ namespace PokedexCore.Services
                    new Evolucao { Id=19, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/019.png", Name="Rattata"},
                    new Evolucao { Id=20, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/020.png", Name="Raticate"},
                }
-            },
+            },//20
             new Pokemon
             {
                Id = 21,
                Nome= "Spearow",
                Imagem= "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/021.png",
                Sobre= "Spearow tem um grito muito alto que pode ser ouvido a mais de 800 metros de distância. Se seu grito alto e agudo for ouvido ecoando por toda parte, é um sinal de que eles estão alertando um ao outro sobre o perigo.",
-               CorFundo= "",
+               CorFundo= "#BDBBA5",
                 TipoPoke = new List<Tipo>()
                 {
                    new Tipo { TipoPoke="Normal"},
@@ -528,14 +528,14 @@ namespace PokedexCore.Services
                    new Evolucao { Id=21, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/021.png", Name="Spearow"},
                    new Evolucao { Id=22, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/022.png", Name="Fearow"},
                }
-            },
+            },//21
             new Pokemon
             {
                Id = 22,
                Nome= "Fearow",
                Imagem= "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/022.png",
                Sobre= "O medo é reconhecido pelo pescoço longo e pelo bico alongado. Eles são convenientemente modelados para capturar presas no solo ou na água. Ele habilmente move seu bico longo e magro para colher presas.",
-               CorFundo= "",
+               CorFundo= "#BDBBA5",
                 TipoPoke = new List<Tipo>()
                 {
                    new Tipo { TipoPoke="Normal"},
@@ -552,14 +552,14 @@ namespace PokedexCore.Services
                    new Evolucao { Id=21, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/021.png", Name="Spearow"},
                    new Evolucao { Id=22, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/022.png", Name="Fearow"},
                }
-            },
+            },//22
             new Pokemon
             {
-               Id = 24,
-               Nome= "arbok",
-               Imagem= "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/024.png",
-               Sobre= "Este Pokémon é terrivelmente forte para contrair as coisas com seu corpo. Pode até achatar tambores de óleo de aço. Uma vez que Arbok envolve seu corpo em torno de seu inimigo, é impossível escapar do abraço esmagador.",
-               CorFundo= "",
+               Id = 23,
+               Nome= "Ekans",
+               Imagem= "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/023.png",
+               Sobre= "Ekans se enrola em espiral enquanto descansa. Assumir esta posição permite que ela responda rapidamente a uma ameaça de qualquer direção com um clarão de sua cabeça erguida.",
+               CorFundo= "#9448D0",
                 TipoPoke = new List<Tipo>()
                 {
                    new Tipo { TipoPoke="Venenoso"},
@@ -574,14 +574,36 @@ namespace PokedexCore.Services
                    new Evolucao { Id=23, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/023.png", Name="Ekans"},
                    new Evolucao { Id=24, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/024.png", Name="Arbok"},
                }
-            },
+            },//23
+            new Pokemon
+            {
+               Id = 24,
+               Nome= "Arbok",
+               Imagem= "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/024.png",
+               Sobre= "Este Pokémon é terrivelmente forte para contrair as coisas com seu corpo. Pode até achatar tambores de óleo de aço. Uma vez que Arbok envolve seu corpo em torno de seu inimigo, é impossível escapar do abraço esmagador.",
+               CorFundo= "#9448D0",
+                TipoPoke = new List<Tipo>()
+                {
+                   new Tipo { TipoPoke="Venenoso"},
+               },
+               FraquezaPoke = new List<Fraqueza>()
+               {
+                   new Fraqueza { FraquezaPoke= "Terra"},
+                   new Fraqueza { FraquezaPoke= "Psíquico"},
+               },
+               EvolucaoPoke = new List<Evolucao>()
+               {
+                   new Evolucao { Id=23, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/023.png", Name="Ekans"},
+                   new Evolucao { Id=24, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/024.png", Name="Arbok"},
+               }
+            },//24
             new Pokemon
             {
                Id = 25,
                Nome= "Pikachu",
                Imagem= "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/025.png",
                Sobre= "Sempre que Pikachu se depara com algo novo, ele o explode com um choque elétrico. Se você se deparar com uma baga enegrecida, é evidente que este Pokémon confundiu a intensidade de sua carga.",
-               CorFundo= "",
+               CorFundo= "#FFCE4B",
                 TipoPoke = new List<Tipo>()
                 {
                    new Tipo { TipoPoke="Elétrico"},
@@ -596,14 +618,14 @@ namespace PokedexCore.Services
                    new Evolucao { Id=25, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/025.png", Name="Pikachu"},
                    new Evolucao { Id=26, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/026.png", Name="Raichu"},
                }
-            },
+            },//25
             new Pokemon
             {
                Id = 26,
                Nome= "Raichu",
                Imagem= "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/026.png",
                Sobre= "Se os sacos elétricos ficarem excessivamente carregados, Raichu plantará sua cauda no chão e descarregará. Pedaços de terra queimados serão encontrados perto do ninho deste Pokémon.",
-               CorFundo= "",
+               CorFundo= "#FFCE4B",
                 TipoPoke = new List<Tipo>()
                 {
                    new Tipo { TipoPoke="Elétrico"},
@@ -618,14 +640,14 @@ namespace PokedexCore.Services
                    new Evolucao { Id=25, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/025.png", Name="Pikachu"},
                    new Evolucao { Id=26, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/026.png", Name="Raichu"},
                }
-            },
+            },//26
             new Pokemon
             {
                Id = 27,
                Nome= "Sandshrew",
                Imagem= "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/027.png",
                Sobre= "O corpo de Sandshrew está configurado para absorver água sem desperdício, permitindo que ele sobreviva em um deserto árido. Este Pokémon se enrola para se proteger de seus inimigos.",
-               CorFundo= "",
+               CorFundo= "#D0A248",
                 TipoPoke = new List<Tipo>()
                 {
                    new Tipo { TipoPoke="Terra"},
@@ -641,14 +663,14 @@ namespace PokedexCore.Services
                    new Evolucao { Id=27, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/017.png", Name="Sandshrew"},
                    new Evolucao { Id=28, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/028.png", Name="Sandslash"}
                }
-            },
+            },//27
             new Pokemon
             {
                Id = 28,
                Nome= "Sandslash",
                Imagem= "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/028.png",
                Sobre= "O corpo do Sandslash é coberto por pontas duras, que são seções endurecidas de sua pele. Uma vez por ano, os picos antigos caem, para serem substituídos por novos picos que crescem por baixo dos antigos.",
-               CorFundo= "",
+               CorFundo= "#D0A248",
                 TipoPoke = new List<Tipo>()
                 {
                    new Tipo { TipoPoke="Terra"},
@@ -664,14 +686,14 @@ namespace PokedexCore.Services
                    new Evolucao { Id=27, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/017.png", Name="Sandshrew"},
                    new Evolucao { Id=28, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/028.png", Name="Sandslash"}
                }
-            },
+            },//28
             new Pokemon
             {
                Id = 29,
                Nome= "Nidoran?",
                Imagem= "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/029.png",
                Sobre= "Nidoran? tem farpas que secretam um poderoso veneno. Pensa-se que eles tenham se desenvolvido como proteção para este Pokémon de corpo pequeno. Quando enfurecido, libera uma toxina horrível do chifre.",
-               CorFundo= "",
+               CorFundo= "#9448D0",
                 TipoPoke = new List<Tipo>()
                 {
                    new Tipo { TipoPoke="Venenoso"},
@@ -687,14 +709,14 @@ namespace PokedexCore.Services
                    new Evolucao { Id=30, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/030.png", Name="Nidorina"},
                    new Evolucao { Id=31, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/031.png", Name="Nidoqueen"}
                }
-            },
+            },//29
             new Pokemon
             {
                Id = 30,
                Nome= "Nidorina",
-               Imagem= "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/029.png",
+               Imagem= "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/030.png",
                Sobre= "Quando Nidorina está com seus amigos ou familiares, eles mantêm suas farpas afastadas para evitar se machucar. Este Pokémon parece ficar nervoso se separado dos outros.",
-               CorFundo= "",
+               CorFundo= "#9448D0",
                 TipoPoke = new List<Tipo>()
                 {
                    new Tipo { TipoPoke="Venenoso"},
@@ -710,14 +732,14 @@ namespace PokedexCore.Services
                    new Evolucao { Id=30, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/030.png", Name="Nidorina"},
                    new Evolucao { Id=31, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/031.png", Name="Nidoqueen"}
                }
-            },
+            },//30
             new Pokemon
             {
                Id = 31,
                Nome= "Nidoqueen",
-               Imagem= "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/029.png",
+               Imagem= "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/031.png",
                Sobre= "O corpo de Nidoqueen é envolto em escamas extremamente duras. É hábil em enviar inimigos voando com agressões severas. Este Pokémon é mais forte quando defende seus filhotes.",
-               CorFundo= "",
+               CorFundo= "#9448D0",
                 TipoPoke = new List<Tipo>()
                 {
                    new Tipo { TipoPoke="Venenoso"},
@@ -736,7 +758,7 @@ namespace PokedexCore.Services
                    new Evolucao { Id=30, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/030.png", Name="Nidorina"},
                    new Evolucao { Id=31, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/031.png", Name="Nidoqueen"}
                }
-            },
+            },//31
         };
 
         public IEnumerable<Pokemon> ListarPokemons()
