@@ -21,9 +21,10 @@ namespace PokedexCore.Services
             var Venenoso = "#9448D0";
             var Eletrico = "#FFCE4B";
             var Terra = "#D0A248";
+            var Fada = "";
 
             Pokemons = new List<Pokemon>()
-        {
+{
             new Pokemon
             {
                Id = 1,
@@ -772,6 +773,479 @@ namespace PokedexCore.Services
                    new Evolucao { Id=31, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/031.png", Name="Nidoqueen"}
                }
             },//31
+            new Pokemon
+            {
+               Id = 32,
+               Nome= "Nidoran?",
+               Imagem= "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/032.png",
+               Sobre= "Nidoran? desenvolveu músculos para mover seus ouvidos. Graças a eles, os ouvidos podem ser movidos livremente em qualquer direção. Mesmo o menor som não escapa à atenção deste Pokémon.",
+               CorFundo= Venenoso,
+                TipoPoke = new List<Tipo>()
+                {
+                   new Tipo { TipoPoke="Venenoso"}
+               },
+               FraquezaPoke = new List<Fraqueza>()
+               {
+                   new Fraqueza { FraquezaPoke= "Terra"},
+                   new Fraqueza { FraquezaPoke= "Psíquico"}
+               },
+               EvolucaoPoke = new List<Evolucao>()
+               {
+                   new Evolucao { Id=32, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/032.png", Name="Nidoran?"},
+                   new Evolucao { Id=33, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/033.png", Name="Nidorino"},
+                   new Evolucao { Id=34, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/034.png", Name="Nodoking"}
+               }
+            },//32
+            new Pokemon
+            {
+               Id = 33,
+               Nome= "Nidorino",
+               Imagem= "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/033.png",
+               Sobre= "Nidorino tem um chifre mais duro que um diamante. Se sente uma presença hostil, todas as farpas nas costas se arrepiam de uma só vez e desafia o inimigo com toda a sua força.",
+               CorFundo= Venenoso,
+                TipoPoke = new List<Tipo>()
+                {
+                   new Tipo { TipoPoke="Venenoso"}
+               },
+               FraquezaPoke = new List<Fraqueza>()
+               {
+                   new Fraqueza { FraquezaPoke= "Terra"},
+                   new Fraqueza { FraquezaPoke= "Psíquico"}
+               },
+               EvolucaoPoke = new List<Evolucao>()
+               {
+                   new Evolucao { Id=32, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/032.png", Name="Nidoran?"},
+                   new Evolucao { Id=33, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/033.png", Name="Nidorino"},
+                   new Evolucao { Id=34, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/034.png", Name="Nodoking"}
+               }
+            },//33
+            new Pokemon
+            {
+               Id = 34,
+               Nome= "Nidoking",
+               Imagem= "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/034.png",
+               Sobre= "A cauda grossa de Nidoking possui poder enormemente destrutivo. Com um balanço, ele pode derrubar uma torre de transmissão de metal. Uma vez que este Pokémon se agita, não há como detê-lo.",
+               CorFundo= Venenoso,
+                TipoPoke = new List<Tipo>()
+                {
+                   new Tipo { TipoPoke="Venenoso"},
+                   new Tipo { TipoPoke="Terra"},
+               },
+               FraquezaPoke = new List<Fraqueza>()
+               {
+                   new Fraqueza { FraquezaPoke= "Terra"},
+                   new Fraqueza { FraquezaPoke= "Gelo"},
+                   new Fraqueza { FraquezaPoke= "Psíquico"},
+                   new Fraqueza { FraquezaPoke= "Água"},
+               },
+               EvolucaoPoke = new List<Evolucao>()
+               {
+                   new Evolucao { Id=32, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/032.png", Name="Nidoran?"},
+                   new Evolucao { Id=33, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/033.png", Name="Nidorino"},
+                   new Evolucao { Id=34, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/034.png", Name="Nodoking"}
+               }
+            },//34
+            new Pokemon
+            {
+               Id = 35,
+               Nome= "Clefairy",
+               Imagem= "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/035.png",
+               Sobre= "Em todas as noites de lua cheia, grupos deste Pokémon aparecem para jogar. Quando o amanhecer chega, os Clefairy cansados voltam para seus retiros tranquilos nas montanhas e vão dormir aninhados um contra o outro.",
+               CorFundo= Fada,
+                TipoPoke = new List<Tipo>()
+                {
+                   new Tipo { TipoPoke="Fada"}
+               },
+               FraquezaPoke = new List<Fraqueza>()
+               {
+                   new Fraqueza { FraquezaPoke= "Metálico"},
+                   new Fraqueza { FraquezaPoke= "Venenoso"}
+               },
+               EvolucaoPoke = new List<Evolucao>()
+               {
+                   new Evolucao { Id=173, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/172.png", Name="Cleffa"},
+                   new Evolucao { Id=35, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/035.png", Name="Clefairy"},
+                   new Evolucao { Id=36, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/036.png", Name="Clefable"}
+               }
+            },//35
+            new Pokemon
+            {
+               Id = 36,
+               Nome= "Clefable",
+               Imagem= "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/036.png",
+               Sobre= "Clefable se move pulando levemente como se estivesse voando usando as asas. Seu passo saltitante permite que ele ande sobre a água. É conhecido por passear em lagos em noites tranquilas e iluminadas pela lua.",
+               CorFundo= Fada,
+                TipoPoke = new List<Tipo>()
+                {
+                   new Tipo { TipoPoke="Fada"}
+               },
+               FraquezaPoke = new List<Fraqueza>()
+               {
+                   new Fraqueza { FraquezaPoke= "Metálico"},
+                   new Fraqueza { FraquezaPoke= "Venenoso"}
+               },
+               EvolucaoPoke = new List<Evolucao>()
+               {
+                   new Evolucao { Id=173, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/172.png", Name="Cleffa"},
+                   new Evolucao { Id=35, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/035.png", Name="Clefairy"},
+                   new Evolucao { Id=36, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/036.png", Name="Clefable"}
+               }
+            },//36
+            new Pokemon
+            {
+               Id = 37,
+               Nome= "Vulpix",
+               Imagem= "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/037.png",
+               Sobre= "No momento do seu nascimento, o Vulpix tinha uma cauda branca. A cauda se separa em seis se este Pokémon receber muito amor de seu treinador. As seis caudas ficam magnificamente enroladas.",
+               CorFundo= Fogo,
+                TipoPoke = new List<Tipo>()
+                {
+                   new Tipo { TipoPoke="Fogo"}
+               },
+               FraquezaPoke = new List<Fraqueza>()
+               {
+                   new Fraqueza { FraquezaPoke= "Terra"},
+                   new Fraqueza { FraquezaPoke= "Pedra"},
+                   new Fraqueza { FraquezaPoke= "Água"}
+               },
+               EvolucaoPoke = new List<Evolucao>()
+               {
+                   new Evolucao { Id=37, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/037.png", Name="Vulpix"},
+                   new Evolucao { Id=38, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/038.png", Name="Ninetales"}
+               }
+            },//37
+            new Pokemon
+            {
+               Id = 38,
+               Nome= "Ninetales",
+               Imagem= "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/038.png",
+               Sobre= "Ninetales lança uma luz sinistra de seus olhos vermelhos brilhantes para obter controle total sobre a mente de seu inimigo. Diz-se que este Pokémon vive por mil anos.",
+               CorFundo= Fogo,
+                TipoPoke = new List<Tipo>()
+                {
+                   new Tipo { TipoPoke="Fogo"}
+               },
+               FraquezaPoke = new List<Fraqueza>()
+               {
+                   new Fraqueza { FraquezaPoke= "Terra"},
+                   new Fraqueza { FraquezaPoke= "Pedra"},
+                   new Fraqueza { FraquezaPoke= "Água"}
+               },
+               EvolucaoPoke = new List<Evolucao>()
+               {
+                   new Evolucao { Id=37, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/037.png", Name="Vulpix"},
+                   new Evolucao { Id=38, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/038.png", Name="Ninetales"}
+               }
+            },//38
+            new Pokemon
+            {
+               Id = 39,
+               Nome= "Jigglypuf",
+               Imagem= "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/039.png",
+               Sobre= "As cordas vocais de Jigglypuff podem ajustar livremente o comprimento de onda de sua voz. Este Pokémon usa essa capacidade de cantar exatamente no comprimento de onda certo para deixar seus inimigos mais sonolentos.",
+               CorFundo= Fada,
+                TipoPoke = new List<Tipo>()
+                {
+                   new Tipo { TipoPoke="Normal"},
+                   new Tipo { TipoPoke="Fada"}
+               },
+               FraquezaPoke = new List<Fraqueza>()
+               {
+                   new Fraqueza { FraquezaPoke= "Metálico"},
+                   new Fraqueza { FraquezaPoke= "Venenoso"}
+               },
+               EvolucaoPoke = new List<Evolucao>()
+               {
+                   new Evolucao { Id=174, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/174.png", Name="Igglybuff"},
+                   new Evolucao { Id=39, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/039.png", Name="Jigglypuf"},
+                   new Evolucao { Id=40, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/040.png", Name="Wigglytuff"}
+               }
+            },//39
+            new Pokemon
+            {
+               Id = 40,
+               Nome= "Wigglytuff",
+               Imagem= "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/040.png",
+               Sobre= "Wigglytuff tem olhos grandes e parecidos com pires. As superfícies dos olhos estão sempre cobertas por uma fina camada de lágrimas. Se houver poeira nos olhos deste Pokémon, ele é rapidamente lavado.",
+               CorFundo= Fada,
+                TipoPoke = new List<Tipo>()
+                {
+                   new Tipo { TipoPoke="Normal"},
+                   new Tipo { TipoPoke="Fada"}
+               },
+               FraquezaPoke = new List<Fraqueza>()
+               {
+                   new Fraqueza { FraquezaPoke= "Metálico"},
+                   new Fraqueza { FraquezaPoke= "Venenoso"}
+               },
+               EvolucaoPoke = new List<Evolucao>()
+               {
+                   new Evolucao { Id=174, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/174.png", Name="Igglybuff"},
+                   new Evolucao { Id=39, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/039.png", Name="Jigglypuf"},
+                   new Evolucao { Id=40, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/040.png", Name="Wigglytuff"}
+               }
+            },//40
+            new Pokemon
+            {
+               Id = 41,
+               Nome= "Zubat",
+               Imagem= "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/041.png",
+               Sobre= "Zubat permanece silenciosamente imóvel em um ponto escuro durante o dia claro. Isso ocorre porque a exposição prolongada ao sol faz com que seu corpo se torne ligeiramente queimado.",
+               CorFundo= Venenoso,
+                TipoPoke = new List<Tipo>()
+                {
+                   new Tipo { TipoPoke="Venenoso"},
+                   new Tipo { TipoPoke="Voador"}
+               },
+               FraquezaPoke = new List<Fraqueza>()
+               {
+                   new Fraqueza { FraquezaPoke= "Elétrico"},
+                   new Fraqueza { FraquezaPoke= "Gelo"},
+                   new Fraqueza { FraquezaPoke= "Psíquico"},
+                   new Fraqueza { FraquezaPoke= "Pedra"}
+               },
+               EvolucaoPoke = new List<Evolucao>()
+               {
+                   new Evolucao { Id=41, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/041.png", Name="Zubat"},
+                   new Evolucao { Id=42, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/042.png", Name="Golbat"},
+                   new Evolucao { Id=169, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/169.png", Name="Crobat"}
+               }
+            },//41
+            new Pokemon
+            {
+               Id = 42,
+               Nome= "Golbat",
+               Imagem= "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/042.png",
+               Sobre= "Golbat adora beber o sangue de seres vivos. É particularmente ativo no escuro da noite. Este Pokémon voa pelo céu noturno, buscando sangue fresco.",
+               CorFundo= Venenoso,
+                TipoPoke = new List<Tipo>()
+                {
+                   new Tipo { TipoPoke="Venenoso"},
+                   new Tipo { TipoPoke="Voador"}
+               },
+               FraquezaPoke = new List<Fraqueza>()
+               {
+                   new Fraqueza { FraquezaPoke= "Elétrico"},
+                   new Fraqueza { FraquezaPoke= "Gelo"},
+                   new Fraqueza { FraquezaPoke= "Psíquico"},
+                   new Fraqueza { FraquezaPoke= "Pedra"}
+               },
+               EvolucaoPoke = new List<Evolucao>()
+               {
+                   new Evolucao { Id=41, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/041.png", Name="Zubat"},
+                   new Evolucao { Id=42, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/042.png", Name="Golbat"},
+                   new Evolucao { Id=169, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/169.png", Name="Crobat"}
+               }
+            },//42
+            new Pokemon
+            {
+               Id = 43,
+               Nome= "Oddish",
+               Imagem= "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/043.png",
+               Sobre= "Durante o dia, Oddish se enterra no solo para absorver os nutrientes do solo usando todo o corpo. Quanto mais fértil o solo, mais brilhantes ficam as suas folhas.",
+               CorFundo= Planta,
+                TipoPoke = new List<Tipo>()
+                {
+                   new Tipo { TipoPoke="Planta"},
+                   new Tipo { TipoPoke="Venenoso"}
+               },
+               FraquezaPoke = new List<Fraqueza>()
+               {
+                   new Fraqueza { FraquezaPoke= "Fogo"},
+                   new Fraqueza { FraquezaPoke= "Voador"},
+                   new Fraqueza { FraquezaPoke= "Gelo"},
+                   new Fraqueza { FraquezaPoke= "Psíquico"}
+               },
+               EvolucaoPoke = new List<Evolucao>()
+               {
+                   new Evolucao { Id=43, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/043.png", Name="Oddish"},
+                   new Evolucao { Id=44, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/044.png", Name="Gloom"},
+                   new Evolucao { Id=45, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/045.png", Name="Vileplume"},
+                   new Evolucao { Id=182, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/182.png", Name="Bellossom"}
+               }
+            },//43
+            new Pokemon
+            {
+               Id = 44,
+               Nome= "Gloom",
+               Imagem= "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/044.png",
+               Sobre= "Gloom libera uma fragrância suja do pistilo de sua flor. Quando confrontado com o perigo, o fedor piora. Se este Pokémon estiver calmo e seguro, ele não liberará seu aroma fedido habitual.",
+               CorFundo= Planta,
+                TipoPoke = new List<Tipo>()
+                {
+                   new Tipo { TipoPoke="Planta"},
+                   new Tipo { TipoPoke="Venenoso"}
+               },
+               FraquezaPoke = new List<Fraqueza>()
+               {
+                   new Fraqueza { FraquezaPoke= "Fogo"},
+                   new Fraqueza { FraquezaPoke= "Voador"},
+                   new Fraqueza { FraquezaPoke= "Gelo"},
+                   new Fraqueza { FraquezaPoke= "Psíquico"}
+               },
+               EvolucaoPoke = new List<Evolucao>()
+               {
+                   new Evolucao { Id=43, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/043.png", Name="Oddish"},
+                   new Evolucao { Id=44, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/044.png", Name="Gloom"},
+                   new Evolucao { Id=45, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/045.png", Name="Vileplume"},
+                   new Evolucao { Id=182, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/182.png", Name="Bellossom"}
+               }
+            },//44
+            new Pokemon
+            {
+               Id = 45,
+               Nome= "Vileplume",
+               Imagem= "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/045.png",
+               Sobre= "O pólen tóxico de Vileplume desencadeia ataques alérgicos atrozes. É por isso que é aconselhável nunca abordar flores atraentes em uma floresta, por mais bonitas que sejam.",
+               CorFundo= Planta,
+                TipoPoke = new List<Tipo>()
+                {
+                   new Tipo { TipoPoke="Planta"},
+                   new Tipo { TipoPoke="Venenoso"}
+               },
+               FraquezaPoke = new List<Fraqueza>()
+               {
+                   new Fraqueza { FraquezaPoke= "Fogo"},
+                   new Fraqueza { FraquezaPoke= "Voador"},
+                   new Fraqueza { FraquezaPoke= "Gelo"},
+                   new Fraqueza { FraquezaPoke= "Psíquico"}
+               },
+               EvolucaoPoke = new List<Evolucao>()
+               {
+                   new Evolucao { Id=43, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/043.png", Name="Oddish"},
+                   new Evolucao { Id=44, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/044.png", Name="Gloom"},
+                   new Evolucao { Id=45, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/045.png", Name="Vileplume"},
+                   new Evolucao { Id=182, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/182.png", Name="Bellossom"}
+               }
+            },//45
+            new Pokemon
+            {
+               Id = 46,
+               Nome= "Paras",
+               Imagem= "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/046.png",
+               Sobre= "Paras tem cogumelos parasitas crescendo nas costas, chamados tochukaso. Eles crescem ao extrair nutrientes deste hospedeiro Pokémon Bug. Eles são altamente valorizados como remédio para prolongar a vida.",
+               CorFundo= Inseto,
+                TipoPoke = new List<Tipo>()
+                {
+                   new Tipo { TipoPoke="Inseto"},
+                   new Tipo { TipoPoke="Planta"}
+               },
+               FraquezaPoke = new List<Fraqueza>()
+               {
+                   new Fraqueza { FraquezaPoke= "Fogo"},
+                   new Fraqueza { FraquezaPoke= "Voador"},
+                   new Fraqueza { FraquezaPoke= "Inseto"},
+                   new Fraqueza { FraquezaPoke= "Gelo"},
+                   new Fraqueza { FraquezaPoke= "Venenoso"},
+                   new Fraqueza { FraquezaPoke= "Pedra"}
+               },
+               EvolucaoPoke = new List<Evolucao>()
+               {
+                   new Evolucao { Id=46, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/046.png", Name="Oddish"},
+                   new Evolucao { Id=47, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/047.png", Name="Gloom"}
+               }
+            },//46
+            new Pokemon
+            {
+               Id = 47,
+               Nome= "Parasect",
+               Imagem= "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/047.png",
+               Sobre= "O parasita é conhecido por infestar grandes árvores em massa e drenar nutrientes do tronco e raízes inferiores. Quando uma árvore infestada morre, elas se movem para outra árvore de uma só vez.",
+               CorFundo= Inseto,
+                TipoPoke = new List<Tipo>()
+                {
+                   new Tipo { TipoPoke="Inseto"},
+                   new Tipo { TipoPoke="Planta"}
+               },
+               FraquezaPoke = new List<Fraqueza>()
+               {
+                   new Fraqueza { FraquezaPoke= "Fogo"},
+                   new Fraqueza { FraquezaPoke= "Voador"},
+                   new Fraqueza { FraquezaPoke= "Inseto"},
+                   new Fraqueza { FraquezaPoke= "Gelo"},
+                   new Fraqueza { FraquezaPoke= "Venenoso"},
+                   new Fraqueza { FraquezaPoke= "Pedra"}
+               },
+               EvolucaoPoke = new List<Evolucao>()
+               {
+                   new Evolucao { Id=46, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/046.png", Name="Paras"},
+                   new Evolucao { Id=47, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/047.png", Name="Parasect"}
+               }
+            },//47
+            new Pokemon
+            {
+               Id = 48,
+               Nome= "Venonat",
+               Imagem= "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/048.png",
+               Sobre= "Diz-se que Venonat evoluiu com uma camada de cabelo fino e rígido que cobre todo o corpo para proteção. Possui olhos grandes que nunca deixam de detectar presas minúsculas.",
+               CorFundo= Inseto,
+                TipoPoke = new List<Tipo>()
+                {
+                   new Tipo { TipoPoke="Inseto"},
+                   new Tipo { TipoPoke="Venenoso"}
+               },
+               FraquezaPoke = new List<Fraqueza>()
+               {
+                   new Fraqueza { FraquezaPoke= "Fogo"},
+                   new Fraqueza { FraquezaPoke= "Voador"},
+                   new Fraqueza { FraquezaPoke= "Psíquico"},
+                   new Fraqueza { FraquezaPoke= "Pedra"}
+               },
+               EvolucaoPoke = new List<Evolucao>()
+               {
+                   new Evolucao { Id=48, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/048.png", Name="Venonat"},
+                   new Evolucao { Id=49, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/049.png", Name="Venomoth"}
+               }
+            },//48
+            new Pokemon
+            {
+               Id = 49,
+               Nome= "Venomoth",
+               Imagem= "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/049.png",
+               Sobre= "Venomoth é noturno - é um Pokémon que só se torna ativo à noite. Suas presas favoritas são pequenos insetos que se reúnem em torno das luzes da rua, atraídos pela luz na escuridão.",
+               CorFundo= Inseto,
+                TipoPoke = new List<Tipo>()
+                {
+                   new Tipo { TipoPoke="Inseto"},
+                   new Tipo { TipoPoke="Venenoso"}
+               },
+               FraquezaPoke = new List<Fraqueza>()
+               {
+                   new Fraqueza { FraquezaPoke= "Fogo"},
+                   new Fraqueza { FraquezaPoke= "Voador"},
+                   new Fraqueza { FraquezaPoke= "Psíquico"},
+                   new Fraqueza { FraquezaPoke= "Pedra"}
+               },
+               EvolucaoPoke = new List<Evolucao>()
+               {
+                   new Evolucao { Id=48, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/048.png", Name="Venonat"},
+                   new Evolucao { Id=49, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/049.png", Name="Venomoth"}
+               }
+            },//49
+            new Pokemon
+            {
+               Id = 50,
+               Nome= "Diglett",
+               Imagem= "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/050.png",
+               Sobre= "Venomoth é noturno - é um Pokémon que só se torna ativo à noite. Suas presas favoritas são pequenos insetos que se reúnem em torno das luzes da rua, atraídos pela luz na escuridão.",
+               CorFundo= Inseto,
+                TipoPoke = new List<Tipo>()
+                {
+                   new Tipo { TipoPoke="Terra"}
+                },
+               FraquezaPoke = new List<Fraqueza>()
+               {
+                   new Fraqueza { FraquezaPoke= "Planta"},
+                   new Fraqueza { FraquezaPoke= "Gelo"},
+                   new Fraqueza { FraquezaPoke= "Água"},
+
+               },
+               EvolucaoPoke = new List<Evolucao>()
+               {
+                   new Evolucao { Id=50, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/048.png", Name="Diglett"},
+                   new Evolucao { Id=51, Imagem="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/049.png", Name="Dugtrio"}
+               }
+            },//50
         };
 
             return Pokemons;
