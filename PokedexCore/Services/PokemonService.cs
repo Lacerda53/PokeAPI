@@ -21,7 +21,7 @@ namespace PokedexCore.Services
             var Venenoso = "#9448D0";
             var Eletrico = "#FFCE4B";
             var Terra = "#D0A248";
-            var Fada = "";
+            var Fada = "#E9A2C4";
 
             Pokemons = new List<Pokemon>()
 {
